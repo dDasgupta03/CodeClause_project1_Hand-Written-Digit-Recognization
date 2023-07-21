@@ -6,7 +6,7 @@ Created on Mon Jul 10 11:13:14 2023
 
 Project Name : Handwritten Digit Recognition using Machine Learning
 Author : Ms. Debalina Dasgupta
-
+         UEMK
 Program Description :
 ---------------------
 Handwritten digit recognition is the process to provide the ability to machines 
@@ -87,19 +87,14 @@ res[0]
 np.argmax(res[0])
 
 #--------- To check image from any image file in Google Colab
+import numpy as np
 img = Image.open('hwdr/Digits/0_gray.jpg')
 img_arr = np.array(img)
 arr = img_arr.reshape(1,28,28,1)
 arr = arr/255.0
-res=model.predict([arr])import numpy as np
-
+res=model.predict([arr])
 res[0]
 np.argmax(res[0])
-
-
-from PIL import Image
-arr=x_test[0]
-img=Image.fromarray(arr)
 
 """
 #---------- Accuracy using Models with 3x3 kernels
@@ -254,10 +249,3 @@ score = model.evaluate(x_test, y_test, verbose=0)
 print("******************** The model has been evaluated successfully.....")
 print('Test loss     :', score[0])
 print('Test accuracy :', score[1])
-
-
-
-
-
-
-
