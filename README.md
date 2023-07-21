@@ -8,7 +8,7 @@ Created on Mon Jul 10 11:13:14 2023
 
 Project Name : Handwritten Digit Recognition using Machine Learning
 Author : Ms. Debalina Dasgupta
-
+         UEMK
 Program Description :
 ---------------------
 Handwritten digit recognition is the process to provide the ability to machines 
