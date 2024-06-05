@@ -25,7 +25,7 @@ testing the model.
 
 At the beginning, the program loads the training data and the testing data 
 including labels using Keras library. The dimension of the training data is 
-(60000*28*28) which is reshaped to a matrix of shape (60000*28*28*1) to feed 
+(60000x28x28) which is reshaped to a matrix of shape (60000x28x28x1) to feed 
 into the CNN model.
 
 The program then creates the CNN model by adding convolutional layers with ReLu
